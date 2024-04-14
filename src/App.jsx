@@ -18,7 +18,7 @@ export const App = () => {
           </p>
         </div>
         <div className={styles.prep}>
-          <h5 className={styles.title}>Preparation time</h5>
+          <h2 className={styles.title}>Preparation time</h2>
           <ul className={styles.info}>
             <li>
               <span>Total:</span> Approximately 10 minutes
@@ -32,7 +32,7 @@ export const App = () => {
           </ul>
         </div>
         <div className={styles.ingredients}>
-          <h3 className={styles.subTitle}>Ingredients</h3>
+          <h2 className={styles.subTitle}>Ingredients</h2>
           <ul className={styles.info}>
             <li>2-3 large eggs</li>
             <li>Salt, to taste</li>
@@ -45,7 +45,7 @@ export const App = () => {
         </div>
         <hr className={styles.line} />
         <div className={styles.instructions}>
-          <h3 className={styles.subTitle}>Instructions</h3>
+          <h2 className={styles.subTitle}>Instructions</h2>
           <ol className={styles.info}>
             <li>
               <span>Beat the eggs:</span> In a bowl, beat the eggs with a pinch
@@ -79,7 +79,7 @@ export const App = () => {
         </div>
         <hr className={styles.line} />
         <div className={styles.nutrition}>
-          <h3 className={styles.subTitle}>Nutrition</h3>
+          <h2 className={styles.subTitle}>Nutrition</h2>
           <p className={styles.description}>
             The table below shows nutritional values per serving without the
             additional fillings.
